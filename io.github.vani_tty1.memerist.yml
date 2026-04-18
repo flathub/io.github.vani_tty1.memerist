@@ -14,5 +14,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/vani-tty1/memerist.git
-        tag: v0.6.2
-        commit: 7d7ffe2e959f518cf6f5bda7ba56f1c8b0d48832
+        tag: v0.7.0
+        commit: 2e940aff24e952a9a3b72c84f6d54e067ee1b9c6
