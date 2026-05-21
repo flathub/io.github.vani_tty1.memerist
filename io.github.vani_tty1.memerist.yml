@@ -9,10 +9,20 @@ finish-args:
   - --socket=wayland
   - --device=dri
 modules:
+  - name: imagemagick
+    buildsystem: autotools
+    config-opts:
+      - --disable-static
+      - --without-x
+    sources:
+      - type: archive
+        url: https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-23.tar.gz
+        sha256: f129f7d87fc21da453d032dd291b80ea13faf2497f13ef8279d97759ed7d5c46
+        
   - name: memerist
     buildsystem: meson
     sources:
       - type: git
         url: https://github.com/vani-tty1/memerist.git
-        tag: v0.7.2
-        commit: de660d6181ceef0008b0d10d5d90a36c0cb204b4
+        tag: v0.8.0
+        commit: 1a2d4a39f90a235f25bf2125541716502f2de050
