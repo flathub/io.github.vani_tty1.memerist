@@ -16,13 +16,13 @@ modules:
       - --without-x
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-23.tar.gz
-        sha256: f129f7d87fc21da453d032dd291b80ea13faf2497f13ef8279d97759ed7d5c46
+        url: https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-26.tar.gz
+        sha256: d63594e334e1c410f600fb9370d78d49e4dc6f315722ca4ba083e864e5c354cb
         
   - name: memerist
     buildsystem: meson
     sources:
       - type: git
         url: https://github.com/vani-tty1/memerist.git
-        tag: v0.8.1
-        commit: 18ea89f54ce3cbfb34f92596c26fd8ac6441762e
+        tag: v0.8.2
+        commit: 126ec08c75b38631beda0245f28c3539b0363e02
